@@ -124,3 +124,7 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
   vendor/samsung/k3gxx/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
   vendor/samsung/k3gxx/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin
+
+#STL Port
+PRODUCT_COPY_FILES += \
+    vendor/samsung/k3gxx/proprietary/lib/libstlport.so:system/lib/libstlport.so
